@@ -116,13 +116,9 @@ int main()
 	compTime=(finish.tv_sec - start.tv_sec)*1000000;
 	compTime=compTime+(finish.tv_usec - start.tv_usec);
 	Time=(double)compTime;
-
-
-
-	/*imprimir_matrix(m,n);
-	printf("Despues de multiplicar \n");
+	//imprimir_matrix(m,n);
 	printf("Tiempo de ejecucion: %lf \n",Time/1000000.0);
-	printf("Fin del programa \n");*/
+	printf("Fin del programa \n");
 
 	pthread_exit(NULL);
 
