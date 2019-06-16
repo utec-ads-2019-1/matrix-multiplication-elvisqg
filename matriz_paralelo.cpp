@@ -8,6 +8,12 @@ double **matriz1;
 double **matriz2;
 double **matriz3;
 
+/**
+ * Este código es 98% similar al trabajo de Daniel Rojas
+ * Espero me expliquen la situación la próxima clase sino 
+ * les pondré 0 a ambos. Saludos.
+ */
+
 struct datos
 {
 
